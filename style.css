@@ -5,9 +5,61 @@ body{
 
 nav{
     display: flex;
-
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    justify-content: space-evenly;
+    font-weight: 600;
 }
 
 ul{
     display: flex;
+    flex-direction: row;
+    font-weight: 300;
 }
+
+li1{
+    display: flex;
+    align-content: space-around;
+    padding-left: 3rem;
+    font-size: 25px;
+}
+
+header{
+    display: flex;
+    max-width: fill;
+    background-color: rgb(184, 229, 255);
+    flex-direction: column;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    font-size: 30px;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    
+    display: flex;
+    justify-content: center;
+}
+
+a1{
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgb(76, 123, 185);
+    max-width: 500px;
+    border-radius:10px;
+    color: white;
+    outline: auto;
+    outline-color: black;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
